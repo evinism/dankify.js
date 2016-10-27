@@ -1,4 +1,4 @@
-$('*')
+$('*:not(iframe)')
   .contents()
   .filter(function() {
     return this.nodeType === 3; 
